@@ -1,14 +1,14 @@
-# Enemy AI Pathfinding
+--- Enemy AI Pathfinding ---
 
-## 1. Identifikasi Algoritma
+1. Identifikasi Algoritma
 
-Algoritma yang digunakan adalah A* (A-Star Pathfinding)
+Algoritma yang digunakan adalah A (A-Star Pathfinding)
 yang dikombinasikan dengan Enemy Detection dan Distance Checking.
 
-A* digunakan untuk mencari jalur dari posisi Enemy menuju
+A digunakan untuk mencari jalur dari posisi Enemy menuju
 Player dengan mempertimbangkan obstacle di dalam dungeon.
 
-## 2. Flowchart Algoritma
+2. Flowchart Algoritma
 
 ```mermaid
 flowchart TD
